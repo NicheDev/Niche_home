@@ -98,7 +98,12 @@ Niche/Jishnu Pradeep
         </nav>
         <div class="top-banner row m0 text-center fadeInOnLoad">
             <div class="container">
-                <h2>The future of tech is here</h2>
+                    <div id="typed-strings">
+                            <p>No more guessing</p>
+                            <p>No more forgetting</p>
+                            <p>Smart Blah. Reimagined</p>
+                        </div>
+                <h2 id="typed"></h2>
                 <p>With Niche you will always know exactly how much you have, empowering you to auto-replenish with ease, and avoid running out, overstocking, or forgetting to buy food items.</p>
                 <!-- <a href="https://vimeo.com/142705963" class="btn btn-primary btn-lg video">Play <img src="images/play-btn-icon.png" alt=""> Video</a> -->
                 <br>
@@ -414,7 +419,7 @@ Niche/Jishnu Pradeep
                 </div>
                 <div class="col-md-6 the-watch-features">
                     <div class="row section-header v3 wow fadeIn">
-                        <h2>The app</h2>
+                        <h2>The Niche app</h2>
                         <p>One app to rule them all.</p>
                     </div>
                     <ul class="nav">
@@ -1113,7 +1118,21 @@ Niche/Jishnu Pradeep
 <!--     <script src="js/includes/style-switcher.js"></script>
  -->    <!-- Main JS -->
     <script src="js/main.js"></script>
-    <script src="js/typed.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+    <script>
+        var typed = new Typed('#typed', {
+          stringsElement: '#typed-strings',
+          smartBackspace: true,
+          typeSpeed: 20,
+          backDelay: 1500,
+          backSpeed: 20,
+          loop: false,
+          loopCount: Infinity,
+          showCursor: false,
+
+        });
+      </script>
+      
 </body>
 
 </html>
