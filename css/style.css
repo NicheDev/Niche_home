@@ -749,10 +749,10 @@ textarea.form-control {
 }
 
 .navbar .navbar-header .navbar-brand {
-  margin-left: 0;
+  margin-top: -8px;
   padding: 0;
   height: 55px;
-  width: 203px;
+  width: 150px;
   transition: all 300ms linear 0s;
 }
 
@@ -2042,7 +2042,7 @@ header.video-bg {
 }
 
 .split-column .texts .texts-inner {
-  padding-left: 37px;
+  padding-left: 100px;
   width: 540px;
   max-width: 100%;
 }
@@ -2586,6 +2586,7 @@ header.video-bg {
 /*=========Newsletter==========*/
 .newsletter {
   padding: 96px 0 90px;
+  background: #f8fbfd;
 }
 
 .newsletter .section-header {
