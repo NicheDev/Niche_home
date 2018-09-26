@@ -6,10 +6,10 @@
  * ------------------------------------
  */
 
-$apiKey       = "8fa92603368bc3e6bee701d07553b813-us19"; /*Your Mailchiimp API Key*/
-$listId       = "ddc7ed5418"; /*Mailchimp List ID*/
-$double_optin = true; /*Set False if you don't need to verify user enmail */
-$send_welcome = true; /* Send Welcome email to new users */
+$apiKey       = 'de4ca8444ef86be4dcab7478d7b5cc12-us19'; /*Your Mailchiimp API Key*/
+$listId       = '0a0fc8dc00'; /*Mailchimp List ID*/
+$double_optin = false; /*Set False if you don't need to verify user enmail */
+$send_welcome = false; /* Send Welcome email to new users */
 $email        = $_POST['email'];
 $fname        = ''; 
 $lname        = ''; 
